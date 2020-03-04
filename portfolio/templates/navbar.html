@@ -1,11 +1,12 @@
 
 {%extends 'base.html'%}
 {%block content%}
-<nav class="navbar fixed-top scrolling-navbar navbar-expand-lg navbar-light blue lighten-4">
+<div class="container-fluid">
+<nav class="navbar nav-wrapper fixed-top scrolling-navbar navbar-expand-lg navbar-light blue lighten-4">
     <!-- Navbar brand -->
     <a class="navbar-brand header" href="">
         <img src="/static/images/logo.png" height="30" class="d-inline-block align-top "
-            alt="mdb logo"> Simon
+            alt="mdb logo"> 
     </a>
 
 
@@ -24,10 +25,13 @@
           <a class="nav-link" href="#">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">PortFolio</a>
+          <a class="nav-link" href="#">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"></a>
+          <a class="nav-link" href="#">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Get in touch</a>
         </li>
         <!-- Dropdown -->
       </ul>
@@ -57,4 +61,6 @@
     </div>
     <!-- Collapsible content -->
   </nav>
+  </div>
+
   {%endblock%}
